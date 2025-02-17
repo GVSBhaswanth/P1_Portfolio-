@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: left;
+    background-color: #f7f7f7; 
+    color: black; 
+}
+
+header {
+    background-color: #6a1b9a; 
+    color: white;
+    padding: 15px;
+}
+
+a {
+    margin-right: 150px;
+    margin-left: 150px;
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+h1 {
+    color: whitesmoke; 
+    text-align: center;
+}
+
+h3, h4 {
+    color: #6a1b9a; 
+}
+
+#intro{
+    text-transform: capitalize;
+}
+
+#education {
+    font-family: Arial;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #6a1b9a;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+#projects {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#addProjectForm {
+    margin-bottom: 20px;
+}
+
+#projectName, #projectDescription {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#addProjectButton {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#deleteProjectButton {
+    padding: 10px 15px;
+    background-color: red; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#projectList {
+    list-style: none;
+    padding: 0;
+}
+
+#projectList li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projectList li h4 {
+    margin: 0;
+    color: #6a1b9a; 
+}
+
+#projectList li p {
+    margin: 5px 0;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #6a1b9a; 
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
